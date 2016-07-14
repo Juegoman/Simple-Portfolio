@@ -1,0 +1,167 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+h1 {
+    color: #545d67;
+    font-weight: 200;
+    font-size: 300%
+}
+h2 {
+    color: #bcbbbb;
+    font-weight: 200;
+    font-size: xx-large;
+    margin: auto 30px;
+}
+h3 {
+    color: #545d67;
+}
+p {
+    color: #545d67;
+}
+img {
+    max-width: 100%;
+}
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo {
+    margin: 0 5px;
+    height: 100px;
+    width: 100px;
+}
+.heroimg {
+    margin: 30px 0;
+    width: 100%;
+}
+.project-image {
+    width: 100%;
+}
+.project {
+    text-align: center;
+}
+.nametag-container {
+    text-align: right;
+}
+.nametag {
+    margin: 5px;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #EEE;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+.col-4-to-12 {
+    width: 100%;
+}
+.linkedin-button {
+    border: 0 solid #0077b5;
+    background-color: #0077b5;
+    border-radius: 2px;
+}
+.github-button {
+    border: 0 solid black;
+    background-color: black;
+    border-radius: 2px;
+}
+.social-link {
+    color: white;
+    text-decoration: none;
+}
+.social-row {
+    height: 3em;
+}
+.social-button {
+    height: 2em;
+    width: 2em;
+    margin: .3em;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 961px) {
+    .grid {
+        margin: 0 auto;
+        max-width: 960px;
+    }
+}
+@media screen and (max-width: 569px) {
+    .nametag {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 651px) {
+    .col-4-to-12 {
+        width: 33.33%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .project-image {
+        max-width: 300px;
+    }
+}
+@media screen and (min-height: 923px) {
+    html, body, .grid {
+        height: 100%;
+    }
+}
